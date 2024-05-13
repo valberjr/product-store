@@ -1,18 +1,6 @@
 {
   "products": [
     {
-      "title": "Product 1 1",
-      "id": "1"
-    },
-    {
-      "title": "Product 2 2",
-      "id": "5105"
-    },
-    {
-      "title": "Product 3",
-      "id": "ebae"
-    },
-    {
       "id": "8c7c",
       "title": "Shoes"
     },

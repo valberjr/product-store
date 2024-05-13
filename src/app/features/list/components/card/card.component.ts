@@ -14,10 +14,15 @@ export class CardComponent {
   product = input.required<Product>();
 
   edit = output();
+  delete = output();
 
   productTitle = computed(() => this.product().title);
 
   onEdit() {
     this.edit.emit();
+  }
+
+  onDelete() {
+    this.delete.emit();
   }
 }
