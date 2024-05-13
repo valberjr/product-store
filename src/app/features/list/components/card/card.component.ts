@@ -4,6 +4,7 @@ import {
   Output,
   computed,
   input,
+  output,
 } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -19,7 +20,7 @@ import { Product } from '../../../../shared/interfaces/product.interface';
 export class CardComponent {
   product = input.required<Product>();
 
-  @Output() edit = new EventEmitter();
+  edit = output();
 
   productTitle = computed(() => this.product().title);
 
